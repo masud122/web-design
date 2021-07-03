@@ -1,0 +1,102 @@
+body
+{
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.header-area
+{
+    background-color:#23232e;
+    text-align: center;
+    color: white;
+    padding-top: 55px;
+    padding-bottom: 30px;
+}
+.container
+{
+    width: 60%;
+    margin:auto;
+}
+.header-area .logo-area img
+{
+    width: 70px;
+    height: auto;
+    padding-bottom: 50px ;
+}
+.header-area .header-text p
+{
+    margin-bottom: 100px;
+    font-size: 11px;
+}
+.header-area a{
+    color: white;
+    text-decoration: none;
+}
+.header-area h2
+{
+    text-transform: uppercase;
+    letter-spacing: .2rem;
+    font-size: 40px;
+}
+.header-area .drop-down a i
+{
+    border: 1px solid white;
+    font-size: 12px;
+    height: 12px;
+    width: 12px;
+    border-radius: 50%;
+    padding: 4px;
+    font-weight: 600;
+}
+/*about*/
+.about-area
+{
+  
+    background: url("images/background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 40px 0;
+}
+.about-area .contain
+{
+    text-align: center;
+}
+.about-area .contain p
+{
+    color: #464b4f;
+    margin-bottom: 50px;
+    font-size: 17px;
+    line-height: 1.7rem;
+}
+.about-area .contain h2{
+    font-size: 40px;
+    text-transform: uppercase;
+    color: #464b4f;
+}
+.about-us
+{
+    overflow: hidden;
+}
+.about-area .col-1
+{
+    width: 32%;
+    float: left;
+    margin-right: 2%;
+    overflow: hidden;
+}
+.about-area .col-1:last-child
+{
+    margin-right: 0;
+}
+.about-area .col-1 h4
+{
+    text-transform: uppercase;
+    color: #595d60;
+    font-size: 16px;
+}
+.about-area .col-1 p
+{
+    color: #888a8b;
+    font-size: 12px;
+    line-height:1.3rem;
+}
+
